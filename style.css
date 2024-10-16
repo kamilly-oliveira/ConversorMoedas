@@ -1,0 +1,153 @@
+
+:root {
+    --text-color-blue-100: #080815;
+    --text-color-blue-200: #0E0F25;
+    --text-color-blue-300: #141534;
+    --text-color-blue-400: #1F2151;
+    --text-color-blue-500: #2F3279;
+    --text-color-blue-600: #2F34AB;
+    --text-color-blue-700: #4A5DCD;
+    --text-color-blue-800: #7D8DEC;
+    --text-color-blue-900: #B2B8DE;
+    --text-color-white: #F1F2F6;
+
+}
+
+html {
+    background-image: url(././/image/Background.png);
+}
+
+section {
+    border-radius: 24px;
+    border: 1px solid var(--text-color-blue-800);
+    background-color: var(--text-color-blue-400);
+}
+
+#container {
+    width: 480px;
+    margin: auto;
+}
+
+#titleimage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 480px;
+    color: var(--text-color-blue-700);
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+#imagevector {
+    margin: 0px 10px;
+    width: 20px;
+}
+
+#block {
+
+    color: var(--text-color-blue-900);
+    font-size: 16px;
+    height: 384px;
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#block input {
+    width: 341px;
+    height: 52px;
+    background-color: var(--text-color-blue-200);
+    border: .5px solid var(--text-color-blue-400);
+    border-radius: 8px;
+    color: var(--text-color-blue-900);
+    margin-top: 8px;
+ }
+
+ input{
+  padding: 0px 10px;
+}
+
+input:hover {
+    background-color: var(--text-color-blue-700);
+}
+  
+input:focus {
+    outline: 1.5px solid var(--text-color-blue-700);
+}
+
+select:hover {
+    background-color: var(--text-color-blue-700);
+}
+  
+select:focus {
+    outline: 1.5px solid var(--text-color-blue-700);
+}
+
+#block label {
+    margin-top: 20px;
+}
+
+#moeda {
+    margin-top: 8px;
+    width: 352px;
+    padding: 0px 10px;
+    height: 52px;
+    background-color: var(--text-color-blue-200);
+    border: .5px solid var(--text-color-blue-400);
+    border-radius: 8px;
+    color: var(--text-color-blue-900);
+}
+
+#block button {
+    background-color: var(--text-color-blue-600);
+    color: var(--text-color-white);
+    font-size: 20px;
+    border-radius: 6px;
+    border: none;
+    width: 352px;
+    height: 52px;
+    margin-top: 48px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: var(--text-color-blue-700);
+}
+  
+button:focus {
+    outline: 1.5px solid var(--text-color-blue-700);
+}
+
+.show_result {
+    display: block;
+}
+  
+footer {
+    background-color: var(--text-color-blue-600);
+    border: 1px solid var(--text-color-blue-700);
+    max-width: 480px;
+    text-align: center;
+    display: none;
+    border-radius: 0px 0px 24px 24px;
+    padding: 40px;
+}
+
+  
+footer span {
+    margin-top: 40px;
+    color: var(--text-color-blue-900);
+    line-height: 20px;
+}
+  
+footer h1 {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0px;
+    color: var(--text-color-white);
+    line-height: 48px;
+    word-break: break-all;
+}

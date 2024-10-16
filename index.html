@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <title>Conversor de Moedas</title>
+</head>
+
+<body>
+    <div id="container">
+
+        <main id="title">
+            <div id="titleimage">
+                <img id="imagevector" src="./image/Vector.png">
+                <h2>CONVERT</h2>
+            </div>
+
+            <section >
+                <form>
+                    <div id="block">
+                        <label> VALOR <br> <input type="text" id="amount" name="amount" placeholder=" 0,00" required>
+                        </label>
+
+                        <label> MOEDA <br>
+                            <select id="moeda" name="moeda" required>
+                                <option value="" disabled selected hidden>Selecione a moeda </option>
+                                <option value="usd">Dólar Americano</option>
+                                <option value="eur">Euro </option>
+                                <option value="gbp">Libra Esterlina </option>
+                            </select></label>
+
+                        <div>
+                            <button type="submit">Converter em Reais</button>
+                        </div>
+                </form>
+
+    </div>
+
+    <footer>
+        <span id="description">US$ 1 = R$ 4,86</span>
+        <h1 id="result">486,00 Reais</h1>
+    </footer>
+
+    </section>
+    </main>
+
+
+    </div>
+    <script src="./scripts.js"></script>
+    <script src=".//app/config/api.js"></script>
+</body>
+
+</html>
