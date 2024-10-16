@@ -5,16 +5,6 @@ const footer = document.querySelector("footer");
 const description = document.getElementById("description");
 const result = document.getElementById("result");
 
-
-
-
-
-  let valueUsd = 5.87; //usdHigh; 
-  let valueEur = 6.87; //eurHigh; 
-  let valueGbp = 7.87; //gbpHigh; 
-
-  
-
 amount.addEventListener("input", () => {
     const hasCharactersRegex = /\D+/g;
     amount.value = amount.value.replace(hasCharactersRegex, "");
